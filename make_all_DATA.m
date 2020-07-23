@@ -42,6 +42,7 @@ TEMP= pop_mergeset( TEMP,EEG8);
 TEMP= pop_mergeset( TEMP,EEG9);
 EEG_ALL= pop_mergeset( TEMP,EEG10);
 
+f1 = pop_saveset(EEG_ALL, 'filename', 'thodoris_BCI.set') ;
 
 
 clear EEG1_L EEG2_L EEG3_L EEG4_L EEG5_L EEG6_L EEG7_L EEG8_L EEG9_L EEG10_L TEMP 
